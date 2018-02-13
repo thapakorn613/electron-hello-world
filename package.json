@@ -7,14 +7,17 @@
     "start": "cross-env NODE_ENV=development electron index.js",
     "startp": "cross-env NODE_ENV=production electron index.js",
     "pack": "build --dir",
-    "dist": "build"
+    "dist": "build",
+    "test": "mocha"
   },
   "author": "Someone",
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^5.1.3",
     "electron": "^1.8.2",
-    "electron-builder": "^19.56.0"
+    "electron-builder": "^19.56.0",
+    "mocha": "^5.0.0",
+    "spectron": "^3.8.0"
   },
   "build": {
     "appId": "my.id",
