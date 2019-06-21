@@ -108,4 +108,3 @@ function setupMenus() {
   const menu = electron.Menu.buildFromTemplate(menuTemplate);
   electron.Menu.setApplicationMenu(menu);
 }
-
